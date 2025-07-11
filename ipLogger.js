@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     fs.appendFileSync('ip_logs.txt', logEntry);
     console.log(logEntry);
 
-    res.send("Your IP has been logged (with permission).");
+    res.send("Fuck You");
 });
 
 app.listen(PORT, () => {
